@@ -1,0 +1,3 @@
+kid, child, children
+men, men's, male, man
+women, women's, female, woman

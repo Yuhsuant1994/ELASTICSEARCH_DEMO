@@ -1,0 +1,69 @@
+
+# term 1
+GET /nike_product/_search
+{
+    "_source": ["product_id","title","subtitle","product_description"],
+    "query": {
+        "term": {
+        "product_id": "C0UZQQIYM7"
+        }
+    }
+}
+# term 2
+GET /nike_product/_search
+{
+    "_source": ["product_id","title","subtitle","product_description"],
+    "query": {
+        "term": {
+        "product_id": "C0UZQQIYM"
+        }
+    }
+}
+
+# show synonyms
+GET /nike_product/_search
+{
+    "_source": ["product_id","title","subtitle","product_description"],
+    "query": {
+        "match": {
+            "subtitle": {
+                "query": "male",
+                "analyzer": "custom_analyzer"
+            }
+        }
+    }
+}
+
+# multi-column search with synonyms
+GET nike_product/_search
+{
+"_source": ["product_id","title","subtitle","product_description"],
+  "query": {
+    "multi_match": {
+      "query": "running shoes female",
+      "fields": [
+        "title^3",
+        "subtitle^2",
+        "product_description"
+      ],
+      "analyzer": "custom_analyzer"
+    }
+  }
+}
+
+GET nike_product/_search
+{
+"_source": ["product_id","title","subtitle","product_description"],
+  "query": {
+    "multi_match": {
+      "query": "running shoes",
+      "fields": [
+        "title^3",
+        "subtitle^2",
+        "product_description"
+      ],
+      "analyzer": "custom_analyzer"
+    }
+  }
+}
+

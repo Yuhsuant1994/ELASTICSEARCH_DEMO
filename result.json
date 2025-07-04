@@ -1,0 +1,129 @@
+{
+    "took": 108,
+    "timed_out": false,
+    "_shards": {
+        "total": 1,
+        "successful": 1,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 400,
+            "relation": "eq"
+        },
+        "max_score": 1.5957232,
+        "hits": [
+            {
+                "_index": "nike_product",
+                "_id": "3FA1V9BLBK_1",
+                "_score": 1.5957232,
+                "_source": {
+                    "product_description": "Nike Alphafly 2 part 1: take stride nike alphafly 2 youll never look favourite pair old racing shoe way rocket ship made help shave precious time personal record without surrendering foundation need go full distance thick lightweight support system marries 2 world comfort speed holy running matrimony enjoy greatest energy return racing shoe chase personal best leave competition dust",
+                    "title": "Nike Alphafly 2",
+                    "subtitle": "Women's Road Racing Shoes",
+                    "product_id": "3FA1V9BLBK"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "289ZIFXXEI_1",
+                "_score": 1.5832791,
+                "_source": {
+                    "product_description": "Nike Dri-FIT One part 1: running fun running sport running stretch leg long day school nike drifit one short made every stride theyre lightweight durable plus breathable lining staying comfy never worry",
+                    "title": "Nike Dri-FIT One",
+                    "subtitle": "Older Kids' (Girls') High-waisted Woven Training Shorts",
+                    "product_id": "289ZIFXXEI"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "38LY51F1LU_1",
+                "_score": 1.5713243,
+                "_source": {
+                    "product_description": "Nike Serenity Run 2 part 1: unwind enjoy journey ahead neutral running shoe made moment step speed help ease mind plush lightweight cushioning complement fit thatll help stayed focused seeking joy journey quiet world around run putting today trouble past letting tomorrow worry",
+                    "title": "Nike Serenity Run 2",
+                    "subtitle": "Women's Road Running Shoes",
+                    "product_id": "38LY51F1LU"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "FI29DHRDU9_1",
+                "_score": 1.5638242,
+                "_source": {
+                    "product_description": "Nike Escape Run 2 part 1: mile getaway moment calm busy day let nike escape run 2 help find serenity breathable design midfoot support soft underfoot traction need get around city street made daily run beyond — with plush sensation keep comfortable workout hangout",
+                    "title": "Nike Escape Run 2",
+                    "subtitle": "Women's Road Running Shoes",
+                    "product_id": "FI29DHRDU9"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "MCOB01H1M2_1",
+                "_score": 1.554425,
+                "_source": {
+                    "product_description": "Nike Escape Run 2 Premium part 1: mile getaway moment zen busy day let nike react escape run 2 premium help find calm breathable design midfoot support soft underfoot traction need get around city street made daily run beyond — with plush sensation keep comfortable workout hang out",
+                    "title": "Nike Escape Run 2 Premium",
+                    "subtitle": "Women's Road Running Shoes",
+                    "product_id": "MCOB01H1M2"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "7L7V72QBMG_1",
+                "_score": 1.5522624,
+                "_source": {
+                    "product_description": "Nike Alphafly 2 part 1: take stride nike alphafly 2 youll never look favourite pair old racing shoe way rocket ship made help shave precious time personal record without surrendering foundation need go full distance thick lightweight support system brings comfort speed together enjoy greatest energy return chase personal best",
+                    "title": "Nike Alphafly 2",
+                    "subtitle": "Men's Road Racing Shoes",
+                    "product_id": "7L7V72QBMG"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "3L59UOHFZ8_1",
+                "_score": 1.5511415,
+                "_source": {
+                    "product_description": "Nike Sportswear Sport Shine part 1: there pedalling required enjoy snug stretchy short like favourite legging made fabric theyre perfect fit warmer weather",
+                    "title": "Nike Sportswear Sport Shine",
+                    "subtitle": "Women's Mid-Rise Bike Shorts",
+                    "product_id": "3L59UOHFZ8"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "SEERQG6N1F_1",
+                "_score": 1.5504062,
+                "_source": {
+                    "product_description": "Nike Pegasus 39 Premium part 1: running daily ritual every step taking closer personal goal let nike pegasus 39 help ascend new height whether youre training jogging intuitive design lightweight top pegasus 38 ideal wear season supportive sensation help keep foot contained underfoot cushioning double zoom air unit 1 peg 38 give extra pop step version brightly coloured exterior announces presence road time fly",
+                    "title": "Nike Pegasus 39 Premium",
+                    "subtitle": "Women's Road Running Shoes",
+                    "product_id": "SEERQG6N1F"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "JDBMLLDGM2_1",
+                "_score": 1.5460173,
+                "_source": {
+                    "product_description": "Nike Infinity React 3 Premium part 1: soft supportive cushioning built help keep run infinity react 3 help get moving regardless whether pace snaillike licketysplit help keep go expressive playful graphic remind fun found every stride even heavy mile wont run go ahead put 1 foot front weve got",
+                    "title": "Nike Infinity React 3 Premium",
+                    "subtitle": "Men's Road Running Shoes",
+                    "product_id": "JDBMLLDGM2"
+                }
+            },
+            {
+                "_index": "nike_product",
+                "_id": "MRAG2HOB1Y_1",
+                "_score": 1.5454779,
+                "_source": {
+                    "product_description": "Nike Pegasus 39 Premium part 1: featuring balanced energised ride run pegasus 39 premium help get moving regardless whether pace snaillike licketysplit bold colour peg 39 help keep go zoom air supportive sensation work expressive playful graphic remind fun found every stride even heavy mile wont run go ahead put 1 foot front weve got",
+                    "title": "Nike Pegasus 39 Premium",
+                    "subtitle": "Men's Road Running Shoes",
+                    "product_id": "MRAG2HOB1Y"
+                }
+            }
+        ]
+    }
+}
